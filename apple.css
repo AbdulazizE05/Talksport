@@ -1,0 +1,388 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+img{
+	max-width:20%;
+}
+
+ body{
+ 	font-size:20px;
+ 	font-family:sans-serif;
+ }
+.header-wrap{
+	background-color:black;
+	color:#fff;
+	font-weight:200px;
+	font-size:0.7em;}
+
+.header-wrap ul{
+	display:flex;
+	-webkit-box-pack:justify;
+	justify-content:space-between;
+}	
+.internal-wrap{
+	width:900px;
+	padding:0px 10px;
+	margin:0px auto;
+
+}
+
+.header-wrap .link-wrap ul li a {
+	text-decoration:none;
+	color:#fff; 
+}  
+
+.header-wrap ul{
+    list-style:none;
+}
+
+
+.header-wrap .link-wrap ul li:hover{
+	opacity:1;
+}
+
+.header-wrap .link-wrap ul li {
+	
+	padding: 14px 0 8px;
+	height: 25px;
+	opacity:0.8;
+}
+
+.header-wrap .link-wrap ul li :hover {
+	opacity:6.9;
+}
+
+.logo-link .search-link .cart-link{
+	width:18px;
+	display:block;
+}
+
+.header-wrap .link-wrap ul li.logo-link{
+	padding:12px 0px 10px 
+}
+
+.header-wrap .link-wrap ul li.search-link{
+	padding:14px 0px 8px 
+}
+
+.header-wrap .link-wrap ul li.cart-link{
+	padding:12px 0px 10px 
+}
+
+/**footer style**/
+
+.footer-wrapper{
+	background-color:#f5f5f7;
+    color:#1d1d1f;
+    font-size: .65em;  
+}
+
+.upper-text-container{
+	border-bottom:1px solid #d2d2d7;
+    color:#86868b;
+    padding:17px 0px 20px;
+}
+
+.upper-text-container a{
+	text-decoration:none;
+	color:#515154 ;
+}
+
+.upper-text-container a:hover{
+	text-decoration:underline;
+}
+
+.footer-links-wrapper{
+	display:flex;
+	-webkit-box-pack:justify;
+	justify-content:space-between;
+	padding-top:20px;
+}
+
+.footer-wrapper li{
+    list-style:none;
+    padding:20px;
+}
+
+.footer-wrapper ul li {
+	padding:5px 0px;
+	font-size:0.9em;
+}
+   
+.footer-links-wrapper a{
+    color: #515154;
+    text-decoration:none;
+}
+.footer-links-wrapper a:hover{
+	text-decoration:underline;
+}
+
+.footer-links-wrapper h3{
+	font-size:12px; 
+	font-weight:600px; 
+}
+
+.my-apple-wrapper{
+	border-bottom:1px solid #d2d2d7;
+	padding-bottom:10px; 
+	margin-bottom:10px;
+}
+
+.copyright-wrapper{
+	display:flex;
+	-webkit-box-pack:justify;
+	justify-content:space-between;
+	padding:10px 0px 20px;
+}
+
+.footer-link-terms ul li {
+	display:inline-block;
+	padding:0px 5px:
+	border-right:1px solid #ccc;
+}
+
+.footer-link-terms ul li:last child{
+	border-right:0px;
+}
+
+.footer-link-terms ul li a{
+	text-decoration:none;
+	color:#515154;
+}
+
+.footer-link-terms ul li:hover{
+	text-decoration:underline;
+}
+
+.footer-country{
+	display:inline-block;
+}
+
+.flag-wrapper{
+	display:inline-block; 
+	vertical-align:middle;
+}
+
+.flag-wrapper-name{
+	display:inline-block; 
+	vertical-align:middle;
+}
+
+/**d**/
+
+.main-highlight-wrapper{
+	background-color:#fafafa;
+	text-align:center;
+	padding: 25px 0px;
+	height:500px
+}
+
+.links-wrapper{
+	list-style:none;
+}
+
+.model{
+	font-size:.85em;
+}
+
+.product-title{
+	font-weight:700px 
+	font-size:56px;
+}
+
+.breif-discription{
+	font-size:28px;
+}
+
+.links-wrapper{
+	padding:15px 0px;
+}
+
+.links-wrapper ul li{
+	display:inline-block;
+	padding-right:20px;
+}
+
+.links-wrapper ul li a{
+	color:#06c;
+	text-decoration:none;
+}
+
+.links-wrapper ul li a:hover{
+	color:#000;
+}
+
+.links-wrapper ul li a:after{
+	font-family:"fontawsome";
+	font-weight:900;
+	content:">";
+	padding-left:10px;
+
+}
+
+.main-image-wrapper{
+	border-image-width:550px;
+}
+
+/**iPone pro**/
+
+.secend-highlight-wrapper{
+	background-image:url(image/home/iphone11-pro-bg.JPG);
+	height:500px;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size: cover;
+	text-align:center;
+	padding:65px 20px;
+	color:white;
+}
+
+.title-wrapper{
+	font-weight:600px;
+	font-size:56px;
+}
+
+.discription-wrapper{
+	font-weight:26px;
+	font-size:10px;
+}
+
+.price-wrapper{
+	color:#86868b;
+	font-size:0.85em;}
+
+/**iPone**/
+
+.third-highlight-wrapper{
+	background-image:url(image/home/iphone11-bg.JPG);
+	height:580px;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size: cover;
+	text-align:center;
+	padding:65px 20px;
+
+}
+/**4**/
+
+.four-highlight-wrapper{
+	display:flex;
+	-webkit-box-pack:justify;
+	justify-content:space-between;
+	background:#fff;
+	
+}
+
+.left-side-wrapper{
+	height:580px;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size: cover;
+	text-align:center;
+	width:48.5%;
+	padding-top:54px; 
+	margin:1% 0.5% 0% 1%;
+}
+
+.four-highlight-wrapper  .left-side-wrapper {
+	background-image:url("image/home/watch-series-5.JPG");
+}
+
+.right-side-wrapper{
+	height:580px;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size: cover;
+	text-align:center;
+	width:48.5%;
+	padding-top:54px; 
+	margin:1% 1% 0% 0.5%;
+}
+
+.four-highlight-wrapper .right-side-wrapper {
+	background-image:url("image/home/apple-card.JPG");
+}
+.discription-wrapper{
+	max-width:430px;
+	margin:0px auto;
+	padding:10px;
+}
+
+/**5**/
+
+.five-highlight-wrapper{
+	display:flex;
+	-webkit-box-pack:justify;
+	justify-content:space-between;
+	background:#fff;
+}
+
+.five-highlight-wrapper .left-side-wrapper {
+	background-image:url(image/home/apple-tv-background.JPG);
+}
+
+
+.five-highlight-wrapper .right-wrapper{
+	background-image:url(image/home/air-pods.JPG);
+	color:#fff; 
+	background-position:bottom;
+	background-color:#000;
+	background-size:initial;
+}
+.logo-wrapper{
+	font-weight:bold;
+	font-size:40px;
+}
+.tv-logo-show-wraper{
+	padding:180px 0px 200px;
+}
+
+.watch-more-wrapper a{
+	text-decoration:none;
+	font-size:0.85em;
+}
+
+.watch-more-wrapper a:after{
+	font-family:"fontawsome";
+	font-weight:900;
+	content:">";
+	padding-left:15px;
+
+}
+
+/**6**/
+
+.six-highlight-wrapper{
+	display:flex;
+	-webkit-box-pack:justify;
+	justify-content:space-between;
+	background:#fff;
+}
+
+.six-highlight-wrapper .left-side-wrapper {
+	background-image:url(image/home/mac-laptop.JPG);
+	background-position:bottom;
+	background-color:#fafafa;
+	background-size:initial;
+}
+
+.six-highlight-wrapper .right-side-wrapper {
+	background-image:url(image/home/new-ipad.JPG);
+}
+
+.product-title-small{
+	font-weight:700; 
+	font-size:45;
+}
+
+
+
+
+
+
+
+
+
+
